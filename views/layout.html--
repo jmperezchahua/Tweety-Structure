@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <h1>Layout</h1>
+    <div>
+      <h1>{{ title }}</h1>
+      {% for persona in personas %}
+      <p>{{ persona.name }}</p>
+      {% endfor %}
+    </div>
+  </body>
+</html>
